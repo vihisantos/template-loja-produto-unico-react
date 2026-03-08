@@ -46,42 +46,42 @@ function useSecurity() {
 
 const benefits = [
     {
-        icon: '🚀',
-        title: 'Velocidade Máxima',
-        desc: 'Alcance resultados até 3x mais rápido com nossa metodologia exclusiva focada em performance.',
+        icon: '💎',
+        title: 'Design Transparente',
+        desc: 'Sinta a engenharia em cada detalhe com nosso corpo em cristal de safira sintético ultra-resistente.',
         large: true
     },
     {
-        icon: '🛡️',
-        title: 'Segurança Total',
-        desc: 'Sua paz de espírito é nossa prioridade. Processos blindados e suporte dedicado.',
+        icon: '🔇',
+        title: 'ANC Adaptativo',
+        desc: 'Silêncio absoluto em qualquer ambiente com cancelamento de ruído inteligente de 45dB.',
         large: false
     },
     {
-        icon: '💡',
-        title: 'Inovação Constante',
-        desc: 'Acesso antecipado a atualizações e novas ferramentas sem custo adicional.',
+        icon: '🔋',
+        title: 'Bateria de 50h',
+        desc: 'Uma semana inteira de uso com apenas uma carga ultra-rápida via USB-C.',
         large: false
     },
     {
-        icon: '📈',
-        title: 'ROI Comprovado',
-        desc: 'Não apenas funcionalidades, mas retornos reais baseados em dados de centenas de clientes.',
+        icon: '🎵',
+        title: 'Áudio Hi-Res',
+        desc: 'Drivers de berílio banhados a ouro para uma fidelidade sonora que você nunca ouviu antes.',
         large: true
     }
 ]
 
 const testimonials = [
-    { initial: 'JS', name: 'João Silva', role: 'Empreendedor Digital', text: '"O produto superou todas as minhas expectativas. O suporte é incrível e o resultado veio em menos de 15 dias."' },
-    { initial: 'MA', name: 'Maria Almeida', role: 'Diretora de Operações', text: '"Finalmente uma solução que resolve o problema de verdade, sem enrolação. Recomendo para todos do setor."' },
-    { initial: 'RP', name: 'Ricardo Pereira', role: 'Freelancer Fullstack', text: '"A facilidade de uso e a velocidade de implementação são os pontos fortes. Vale cada centavo investido."' },
+    { initial: 'DR', name: 'Dani Ribeiro', role: 'Produtora Musical', text: '"A clareza sonora é absurda. Consigo ouvir nuances que outros fones high-end simplesmente perdem. E o design é uma obra de arte."' },
+    { initial: 'GP', name: 'Gustavo Paiva', role: 'Tech Reviewer', text: '"O Aero-X Crystal não é apenas um fone, é um statement técnico. O cancelamento de ruído é o melhor que já testei em 2025."' },
+    { initial: 'AL', name: 'Ana Luiza', role: 'Executiva C-Level', text: '"O conforto durante voos longos é incomparável. Além disso, a transparência chama a atenção em qualquer lugar que eu vá."' },
 ]
 
 const faqs = [
-    { q: 'O acesso ao produto é imediato?', a: 'Sim! Assim que o pagamento for confirmado, você receberá todos os dados de acesso diretamente no seu e-mail cadastrado.' },
-    { q: 'Existe algum tipo de garantia?', a: 'Com certeza. Oferecemos uma garantia incondicional de 7 dias. Se você não estiver satisfeito, devolvemos 100% do seu dinheiro.' },
-    { q: 'Quais as formas de pagamento?', a: 'Aceitamos Cartão de Crédito (parcelado em até 12x), Pix com aprovação instantânea e Boleto Bancário.' },
-    { q: 'Preciso de conhecimento prévio?', a: 'Não. O produto foi desenhado para ser intuitivo tanto para iniciantes quanto para usuários avançados.' },
+    { q: 'O material de cristal é frágil?', a: 'Não. Utilizamos um composto de vidro saphire reforçado com polímero, projetado para resistir a quedas e arranhões do dia a dia.' },
+    { q: 'É compatível com todos os dispositivos?', a: 'Sim. Compatibilidade universal via Bluetooth 5.4 com suporte a LDAC, aptX Adaptive e conexão multiponto em 2 dispositivos.' },
+    { q: 'Qual o tempo de garantia?', a: 'O Aero-X Crystal possui garantia premium de 2 anos contra qualquer defeito de fabricação.' },
+    { q: 'O led interno desliga?', a: 'Sim. Através do nosso app exclusivo, você pode personalizar as cores do interior ou desligar completamente as luzes.' },
 ]
 
 function useCountdown(seconds: number) {
@@ -119,24 +119,24 @@ export default function App() {
                 <div className="container">
                     <div className="hero-product-grid">
                         <div className={heroReveal.className}>
-                            <span className="badge badge--blue">✦ Lanamento Exclusivo 2025</span>
-                            <h1>A Solução Definitiva para <br /><em className="highlight-product">Escalar sua Operação</em></h1>
-                            <p className="hero-sub-product">Descubra como centenas de empresas estão automatizando processos e dobrando o faturamento com nossa tecnologia proprietária.</p>
-                            <a href={CHECKOUT_LINK} className="btn-cta-product">🛒 Garantir Minha Vaga Agora</a>
-                            <p className="guarantee-small" style={{ marginTop: '20px', fontSize: '0.85rem', opacity: 0.6 }}>🔒 Compra 100% Segura · Garantia de Satisfação</p>
+                            <span className="badge badge--blue">✦ Aero-X Crystal | Edição Limitada</span>
+                            <h1>A Obra-Prima do Som <br /><em className="highlight-product">Em Sua Forma Pura</em></h1>
+                            <p className="hero-sub-product">Experimente a fusão perfeita entre engenharia de precisão e design futurista. O primeiro fone de ouvido Hi-Res totalmente transparente do mundo.</p>
+                            <a href={CHECKOUT_LINK} className="btn-cta-product">🛒 Quero o Meu Aero-X</a>
+                            <p className="guarantee-small" style={{ marginTop: '20px', fontSize: '0.85rem', opacity: 0.6 }}>🔒 Compra 100% Segura · Frete Grátis Especial</p>
                         </div>
                         <div className="product-mockup-wrapper">
-                            <div className="product-mockup" style={{
-                                width: '100%',
-                                height: '400px',
-                                background: 'rgba(255,255,255,0.05)',
-                                borderRadius: '32px',
-                                border: '1px solid var(--border-dark)',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                fontSize: '4rem'
-                            }}>✨</div>
+                            <img
+                                src="/aero-x.png"
+                                alt="Aero-X Crystal"
+                                className="product-mockup-img"
+                                style={{
+                                    width: '100%',
+                                    maxWidth: '500px',
+                                    height: 'auto',
+                                    filter: 'drop-shadow(0 0 30px rgba(59, 130, 246, 0.3))'
+                                }}
+                            />
                         </div>
                     </div>
                 </div>
@@ -215,14 +215,14 @@ export default function App() {
             {/* FINAL CTA - DARK MODE */}
             <section className="cta-section--product">
                 <div className="container text-center" style={{ textAlign: 'center' }}>
-                    <h2 className="section-title">Comece sua jornada de <em>sucesso</em> hoje</h2>
+                    <h2 className="section-title">O som do futuro em <em>suas mãos</em></h2>
                     <div className="price-box">
-                        <div className="price-old">De R$ 1.997,00</div>
-                        <div className="price-new">R$ 997,00</div>
-                        <div className="price-installment">ou 12x de R$ 97,14</div>
+                        <div className="price-old">De R$ 2.490,00</div>
+                        <div className="price-new">R$ 1.690,00</div>
+                        <div className="price-installment">ou 12x de R$ 164,72</div>
                     </div>
-                    <a href={CHECKOUT_LINK} className="btn-cta-product">🚀 Liberar Meu Acesso Vitalício</a>
-                    <p style={{ marginTop: '20px', fontSize: '0.9rem', opacity: 0.6 }}>Pagamento Único · Sem Mensalidades · Atualizações Gratuitas</p>
+                    <a href={CHECKOUT_LINK} className="btn-cta-product">🚀 Adquirir Meu Aero-X Crystal</a>
+                    <p style={{ marginTop: '20px', fontSize: '0.9rem', opacity: 0.6 }}>Edição de Lançamento · Envio Prioritário para Todo o Brasil</p>
                 </div>
             </section>
 
