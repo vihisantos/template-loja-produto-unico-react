@@ -187,12 +187,12 @@ export default function App() {
                                     key={activeView.id}
                                     src={activeView.img}
                                     alt={`AeroSound ${activeView.label}`}
-                                    className="w-full max-w-md"
+                                    className="w-full max-w-xl lg:max-w-2xl"
                                     initial={{ opacity: 0, scale: 0.9, rotateY: 20 }}
                                     animate={{ opacity: 1, scale: 1, rotateY: 0 }}
                                     exit={{ opacity: 0, scale: 0.9, rotateY: -20 }}
                                     transition={{ duration: 0.5 }}
-                                    style={{ filter: `drop-shadow(0 0 60px ${activeView.color}44)` }}
+                                    style={{ filter: `drop-shadow(0 0 80px ${activeView.color}55)` }}
                                 />
                             </AnimatePresence>
                         </motion.div>
