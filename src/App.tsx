@@ -4,11 +4,13 @@ import { ShoppingCart, Star, Shield, Truck, Clock, Menu, X, Sun, Moon, ChevronLe
 
 const WHATSAPP = 'https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre o AeroSound.'
 
+const BASE = import.meta.env.BASE_URL
+
 const PRODUCT_VIEWS = [
-    { id: 'blue', color: '#3b82f6', img: '/aero-x.png', label: 'Ethereal Blue' },
-    { id: 'emerald', color: '#10b981', img: '/aero-emerald.png', label: 'Neon Emerald' },
-    { id: 'ruby', color: '#ef4444', img: '/aero-ruby.png', label: 'Ruby Core' },
-    { id: 'purple', color: '#a855f7', img: '/aero-purple.png', label: 'Shadow Purple' },
+    { id: 'blue', color: '#3b82f6', img: `${BASE}aero-x.png`, label: 'Ethereal Blue' },
+    { id: 'emerald', color: '#10b981', img: `${BASE}aero-emerald.png`, label: 'Neon Emerald' },
+    { id: 'ruby', color: '#ef4444', img: `${BASE}aero-ruby.png`, label: 'Ruby Core' },
+    { id: 'purple', color: '#a855f7', img: `${BASE}aero-purple.png`, label: 'Shadow Purple' },
 ]
 
 const benefits = [
