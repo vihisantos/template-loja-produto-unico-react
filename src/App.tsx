@@ -180,19 +180,19 @@ export default function App() {
                             initial={{ opacity: 0, x: 40 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8, delay: 0.2 }}
-                            className="flex justify-center"
+                            className="flex justify-center relative"
                         >
                             <AnimatePresence mode="wait">
                                 <motion.img
                                     key={activeView.id}
                                     src={activeView.img}
                                     alt={`AeroSound ${activeView.label}`}
-                                    className="w-full max-w-xl lg:max-w-2xl"
+                                    className="w-full max-w-lg lg:max-w-3xl xl:max-w-4xl"
                                     initial={{ opacity: 0, scale: 0.9, rotateY: 20 }}
                                     animate={{ opacity: 1, scale: 1, rotateY: 0 }}
                                     exit={{ opacity: 0, scale: 0.9, rotateY: -20 }}
                                     transition={{ duration: 0.5 }}
-                                    style={{ filter: `drop-shadow(0 0 80px ${activeView.color}55)` }}
+                                    style={{ filter: `drop-shadow(0 0 100px ${activeView.color}66)` }}
                                 />
                             </AnimatePresence>
                         </motion.div>
